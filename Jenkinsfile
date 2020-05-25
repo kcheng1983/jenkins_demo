@@ -22,4 +22,6 @@ pipeline {
   post {
     always {
       allure report: 'allure_reports', results: [[path: '/Users/kcheng/mypypi/b2b/demo/tests/functional/reports/my_allure_results/']]
+    }
+  }
 }
